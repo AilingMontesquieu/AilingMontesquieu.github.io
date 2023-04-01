@@ -1,7 +1,67 @@
+<link rel="stylesheet" type="text/css" href="style.css" />
 <!DOCTYPE html>
+<!-- The doctype declaration tells the browser that this is an HTML5 document -->
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <head>
+    <!-- The head section contains meta data and links to external resources -->
+    <title>My Blog Post</title>
+    <!-- The title tag sets the title of the page that appears in the browser's tab -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <!-- This link tag tells the browser to load the CSS file named "style.css" -->
+  </head>
+  <body>
+    <!-- The body section contains the content of the page -->
+    <header>
+      <!-- The header element contains the top part of the page, such as the logo and navigation menu -->
+      <h1>My Blog</h1>
+      <!-- The h1 tag sets the main heading of the page -->
+    </header>
+    <nav>
+      <!-- The nav element contains the navigation menu of the page -->
+      <ul>
+        <!-- The ul tag creates an unordered list -->
+        <li><a href="#">Home</a></li>
+        <!-- The li tag creates a list item, and the a tag creates a hyperlink -->
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <!-- The main element contains the main content of the page -->
+      <article>
+        <!-- The article element contains an individual blog post -->
+        <header>
+          <!-- The header element of an article contains the title and metadata of the blog post -->
+          <h2>My First Blog Post</h2>
+          <p class="date">April 1, 2023</p>
+          <!-- The p tag creates a paragraph, and the class attribute sets the class of the element -->
+        </header>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+          sollicitudin est nec ipsum rhoncus convallis. Nulla facilisi. Sed
+          vitae congue enim, eget euismod purus. Morbi semper est at velit
+          commodo, vel tincidunt quam dignissim.
+        </p>
+        <!-- This is an example paragraph of the blog post -->
+        <p>
+          Suspendisse dignissim, dolor quis pulvinar pellentesque, velit nunc
+          tincidunt orci, sed dignissim odio tellus in quam. Vivamus vel turpis
+          id velit tincidunt efficitur vel sit amet sapien.
+        </p>
+        <footer>
+          <!-- The footer element contains metadata and links at the end of an article -->
+          <p>
+            Tags: <a href="#">tag1</a>, <a href="#">tag2</a>,
+            <a href="#">tag3</a>
+          </p>
+          <!-- This is an example of a list of tags for the blog post -->
+        </footer>
+      </article>
+    </main>
+    <footer>
+      <!-- The footer element contains metadata and links at the bottom of the page -->
+      <p>&copy; 2023 My Blog. All rights reserved.</p>
+      <!-- This is an example of a copyright notice -->
+    </footer>
+  </body>
 </html>
